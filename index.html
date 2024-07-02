@@ -6,7 +6,65 @@
     <title>Document</title>
 </head>
 <body>
-    <h1> hii this is going to be a signup form</h1>
-    
+
+    <div id="logo-container">
+        <h1 id="logo"><i class="fa-solid fa-droplet"></i>Natural Springs</h1>
+        <p id="footer">Made by
+            <a href="https://github.com/IsabelleAnn"> <i class="fa-brands fa-github"></i> Isabelle</a>
+    </div>
+    <div id="form-container">
+        <div id="top-section">
+            <h2>Fulfill your dream of seeing the most beautiful natural springs in America. <br> Enjoy the serene views and bathe in the clearest water! <br> Sign up <em>now</em> to get more information or book a tour.</h2>
+            <h2 class="indent">You <em>know</em> you want to.</h2>
+        </div>
+        <form action="#">
+            <div id="mid-section">
+                <h2>Book a tour now!</h2>
+                <div class="data-row">
+                    <div class="data">
+                        <label for="first-name">*First Name</label>
+                        <input type="text" id="first-name" name="first-name" minlength="2" maxlength="20" placeholder="John" required>
+                    </div>
+                    <div class="data">
+                        <label for="last-name">*Last Name</label>
+                        <input type="text" id="last-name" name="last-name" minlength="2" maxlength="20" placeholder="Smith" required>
+                    </div>
+                </div>
+                <div class="data-row">
+                    <div class="data">
+                        <label for="email">*Email</label>
+                        <input type="email" id="email" name="email" minlength="3" maxlength="50" placeholder="john@smith.com" required>
+                    </div>
+                    <div class="data">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="tel" name="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="555-555-5555">
+                    </div>
+                </div>
+                <div class="data-row">
+                    <div class="data">
+                        <label for="password">*Password</label>
+                        <input type="password" id="password" name="password" minlength="6" maxlength="20" placeholder=" " required>
+                        <span id="passError"></span>
+                    </div>
+                    <div class="data">
+                        <label for="confirm-password">*Confirm Password</label>
+                        <input type="password" id="confirm-password" name="confirm-password" minlength="6" maxlength="20" placeholder=" " required>
+                        <span id="confirmError"></span>
+                    </div>
+                </div>
+            </div>
+            <div id="bottom-section">
+                <button type="submit">Create Account</button>
+                <p>Already have an account? <a href="">Log in</a></p>
+            </div>
+        </form>
+
+
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
+
+
+
+
