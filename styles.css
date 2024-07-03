@@ -14,3 +14,39 @@
     letter-spacing: .06rem;
     line-height: 1.6;
 }
+
+html,
+body {
+    min-height: 100vh;
+    display: flex;
+}
+
+#logo {
+    font-family: 'Grand Hotel', cursive;
+    font-size: 3vw;
+}
+
+#logo i {
+    font-size: 3vw;
+    padding: 2%;
+    color: white;
+}
+
+#logo-container {
+    min-width: 40vw;
+    height: 100%;
+    background-image: url("images/20210818_160429.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#logo {
+    margin-top: 30vh;
+    background-color: rgba(0, 0, 0, 0.397);
+    text-align: center;
+}
