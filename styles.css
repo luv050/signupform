@@ -1,6 +1,16 @@
-h1{
-    color: aqua;
+:root {
+    --hover-color: rgb(8, 109, 224);
+    --link-focus-color: rgb(78, 160, 255);
+    --box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.192);
 }
-p{
-    background-color: beige;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1rem;
+    font-weight: normal;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: .06rem;
+    line-height: 1.6;
 }
